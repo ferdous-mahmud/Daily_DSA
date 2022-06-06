@@ -1,6 +1,2 @@
 *.cpp:tests
 .DS_Store
-*.exe
-*.out
-*.app
-*
