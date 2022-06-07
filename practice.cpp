@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main(){
+int main(void){
 
 	int ar[6] =  {1, 2, 3, 4, 5, 6};
 	int arr[6];
@@ -18,10 +18,13 @@ int main(){
 		cout << i << endl;
 	}
 
-	// Vector pair
+	// Vector
 	vector <pair <string, int>> pvec;
 	pvec.push_back(make_pair("Ferdous", 23));
-	cout << pvec[0].first;
+	pvec.emplace_back("Akash", 22);
+
+	cout << pvec[0].first << " " << pvec[0].second << endl;
+	cout << pvec[1].first << " " << pvec[1].second << endl;
 
 
 
